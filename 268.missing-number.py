@@ -65,13 +65,6 @@
 
 # @lc code=start
 class Solution:
-    def fact(self, n):
-        if n == 1:
-            return n
-        else:
-            return n * self.fact(n - 1)
-
     def missingNumber(self, nums: List[int]) -> int:
-        return self.fact(len(nums)) - sum(nums)
-
+        return (len(nums) * (len(nums) + 1) // 2) - sum(nums)
 # @lc code=end

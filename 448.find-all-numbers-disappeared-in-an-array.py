@@ -43,5 +43,11 @@
 # @lc code=start
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
+        result = List[int]
+        sorted = nums.sort
+        for i, val in enumerate(sorted):
+            if (val != sorted[i+1]-1):
+                result.append
 
-        # @lc code=end
+        return result
+# @lc code=end
