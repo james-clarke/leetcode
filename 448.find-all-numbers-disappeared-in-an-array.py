@@ -45,4 +45,5 @@
 
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
-        # @lc code=end
+        return None
+    # @lc code=end
